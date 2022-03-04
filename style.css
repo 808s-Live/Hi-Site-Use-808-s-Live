@@ -1,6 +1,7 @@
 body {
     margin: 0px;
-    background-image: url(../image/Фон2.jpg);
+    background: rgb(0,109,255);
+    background: linear-gradient(315deg, rgba(0,109,255,1) 0%, rgba(11,246,255,1) 44%, rgba(11,246,255,1) 55%, rgba(20,0,255,1) 100%);
     background-size: cover;
     color: white;
 }
