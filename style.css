@@ -3,11 +3,27 @@
 }
 body {
     margin: 0px;
-    /* background: linear-gradient(90deg, rgb(0, 100, 104), rgb(0, 0, 0) 47%, rgb(160, 1, 1)); */
-    /* background: -moz-linear-gradient(45deg, rgb(0, 174, 179), rgb(0, 0, 0) 47%, rgb(255, 0, 0)); */
     background: -webkit-linear-gradient(30deg, rgb(0, 174, 179), rgb(0, 0, 0) 47%, rgb(255, 0, 0));
     color: white;
 }
+::-webkit-scrollbar {
+    width: 15px;
+    background-color: black;
+}
+::-webkit-scrollbar-track {
+    background-color: black;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: -webkit-linear-gradient(90deg, rgb(0, 174, 179), rgb(109, 0, 0) 47%, rgb(255, 0, 0));
+    border-radius: 10px;
+    border: 2px solid black;
+}
+::-webkit-scrollbar-thumb:active {
+    background: -webkit-linear-gradient(90deg, rgb(0, 174, 179)10%, rgb(109, 0, 0) 50%, rgb(255, 0, 0)90%);
+    border: 1px solid black;
+}
+
 .logo {
     cursor: url('image/cursor-11.png'), pointer;
     min-width: 10px;
