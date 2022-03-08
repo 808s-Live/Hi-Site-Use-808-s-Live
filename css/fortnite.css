@@ -7,6 +7,7 @@ body {
     background: linear-gradient(0deg, rgb(84, 84, 214), rgb(84, 182, 214));
     background-size: cover;
     color: white;
+    font-family: sans-serif;
 }
 a {
     color: white;
