@@ -1,0 +1,210 @@
+* {
+    cursor: url('image/cursor-12.png'), pointer;
+}
+body {
+    margin: 0px;
+    margin-bottom: 50px;
+    background: -webkit-linear-gradient(30deg, rgb(0, 174, 179), rgb(0, 0, 0) 47%, rgb(255, 0, 0));
+    color: white;
+    font-family: sans-serif;
+}
+::-webkit-scrollbar {
+    width: 15px;
+    background-color: black;
+}
+::-webkit-scrollbar-track {
+    background-color: black;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: -webkit-linear-gradient(90deg, rgb(0, 174, 179), rgb(109, 0, 0) 47%, rgb(255, 0, 0));
+    border-radius: 10px;
+    border: 2px solid black;
+}
+::-webkit-scrollbar-thumb:active {
+    background: -webkit-linear-gradient(90deg, rgb(0, 174, 179)10%, rgb(109, 0, 0) 50%, rgb(255, 0, 0)90%);
+    border: 1px solid black;
+}
+.logo {
+    margin-left: 20px;
+    border-radius: 15px;
+    transition: 1s; 
+}
+.logo:hover {
+    border-radius: 30px;
+}
+.logo-text {
+    margin-left: 10px;
+    color: red;
+}
+.head-page {
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #00000066;
+    border: 1px solid #007e8f33;
+}
+.head-page a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+}
+li {list-style-type: none;}
+a {text-decoration: none; color:white;}
+
+.navigation {
+    margin-left: 180px;
+    display: flex;
+    align-items: center;
+    /* margin-right: 20px; */
+    font-size: 25px;
+    color: white;
+}
+.navigation li,.navigation li > a {
+    margin-right: 20px;
+    transition: 0.5s;
+}
+.navigation li:hover,.navigation li a:hover {
+    color: red;
+}
+.nav-Game-ul{
+    position: absolute;
+    z-index: 1;
+    top: 65px;
+    left: 140px;
+    padding: 10px;
+    background-color: rgba(36, 36, 36, 0.5);
+    backdrop-filter: blur(10px);
+    border: 2px solid hsla(0, 0%, 0%, 0.5);
+    border-radius: 20px;
+    display: none;
+}
+.nav-Game-ul li {
+    margin: 10px 5px 10px 5px;
+    padding: 6px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+h3 {
+    margin: 3px;
+}
+.nav-Game-ul li img {
+    margin-left: 6px;
+    width: 200px;
+    height: 120px;
+    border-radius: 20px;
+}
+.nav-Game-ul li:hover{
+    border: 3px solid rgb(61, 61, 61);
+    color: rgb(95, 95, 95);
+}
+.nav-Game:hover .nav-Game-ul {
+    display: flex;
+}
+.nav-Game-SM {
+    border: 3px solid #ffae00;
+    color: #ffae00;
+}
+.nav-Game-M {
+    border: 3px solid #25af25;
+    color: #25af25;
+}
+.nav-Game-F {
+    border: 3px solid #5454d6;
+    color: #5454d6;
+}
+/* .navigation a {
+    margin-right: 20px;
+    font-size: 25px;
+    color: white;
+}
+.nav-Game {
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+}
+.nav-Game-ul{
+    position: absolute;
+    z-index: 1;
+    margin-top: 240px;
+    margin-left: 40px;
+    padding: 10px;
+    background-color: rgba(44, 1, 1, 0.5);
+    backdrop-filter: blur(10px);
+    border: 2px solid hsla(0, 0%, 0%, 0.5);
+    border-radius: 20px;
+    display: block;
+    
+}
+.logo:hover .nav-Game-ul {
+    margin-top: 777px;
+}
+.nav-Game-ul li {
+    cursor: url('image/cursor-11.png'), pointer;
+    margin: 10px 5px 10px 5px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+} */
+/* .Hello {
+    margin-left: 10%;
+    margin-right: 5%;
+    font-size: calc(12px + 16 * (100vw / 1280));
+}
+.Hello-text {
+    color: #9ee3ff;
+    opacity: 0;
+    transition: 2s;
+}
+.head-page:active .Hello-text {
+    opacity: 1;
+} */
+
+.YouTube-box {
+    margin-top: 20px;
+    display: inline-flexbox;
+}
+.YouTube-content {
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 20px;
+    display: flex;
+    background-color: #00000066;
+    backdrop-filter: blur(10px);
+    border: 1px solid #007e8f33;
+    border-radius: 25px;
+}
+.YouTube-content a {
+    display: grid;
+}
+.YouTube {
+    margin: 10px 0px 10px 0px;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid #007e8f33;
+    transition: 0.5s;
+}
+.YouTube:hover {
+    box-shadow: 5px 10px 15px rgb(5, 5, 5);
+}
+.YouTube-info {
+    margin-left: 50px;
+    margin-top: auto;
+    margin-bottom: 5%;
+}
+.YouTube-info h2 {
+    margin-bottom: 5%;
+}
+.YouTube-info h3 {
+    margin: 0;
+    color: #9ee3ff;
+}
+
