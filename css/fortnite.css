@@ -1,3 +1,6 @@
+* {
+    cursor: url(../image/cursor_3.png), pointer;
+}
 body {
     margin: 0px;
     margin-bottom: 50px;
@@ -9,8 +12,13 @@ a {
     color: white;
     text-decoration: none;
 }
-.body-name {
+.home {
+    display: block;
+    width: 110px;
+    /* border: 5px solid rgb(255, 0, 0); */
 }
+/* .body-name {
+} */
 .body-name-hover {
     position: absolute;
     left: 30px;
