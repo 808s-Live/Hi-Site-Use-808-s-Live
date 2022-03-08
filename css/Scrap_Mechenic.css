@@ -44,9 +44,9 @@ a {
 }
 header {
     height: 80px;
-    padding: 10px 10px 10px 30px;
     background-color: #00000066;
     border: 1px solid #007e8f33;
+    padding: 10px 10px 10px 30px;
 }
 iframe {
     border-radius: 10px;
@@ -66,7 +66,7 @@ iframe:hover {
     margin-right: 50px;
     margin-top: auto;
     margin-bottom: 5%;
-    padding: 10px 60px 10px 60px;
+    padding: 10px 20px 10px 20px;
     background-color: rgba(0, 0, 0, 0.3);
     border: 1px solid #007e8f33;
     border-radius: 5px;
