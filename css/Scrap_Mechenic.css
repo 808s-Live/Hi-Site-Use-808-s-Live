@@ -20,7 +20,7 @@
 }
 body {
     margin: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 30%;
     background: -webkit-linear-gradient(30deg, rgb(0, 174, 179), rgb(0, 0, 0) 47%, rgb(255, 0, 0));
     background-size: cover;
     color: white;
@@ -30,6 +30,9 @@ a {
     color: white;
     text-decoration: none;
 }
+/* .body-name, .body-name-hover{ 
+    font-size: ;
+}*/
 .body-name-hover {
     position: absolute;
     left: 30px;
@@ -43,38 +46,47 @@ a {
     display: block;
 }
 header {
-    height: 80px;
+    height: 6em;
+    display: flex;
+    align-items: center;
     background-color: #00000066;
     border: 1px solid #007e8f33;
-    padding: 10px 10px 10px 30px;
+    padding: .5vw .5vw .5vw 3vw;
+}
+.YouTube {
+    margin-left: 4%;
 }
 iframe {
-    border-radius: 10px;
+    width: 30vw;
+    height: 17vw;
+    border-radius: .5vw;
     transition: 1s;
 }
 iframe:hover {
     box-shadow: 0px 10px 10px rgb(5, 5, 5);
 }
 .YouTube-box {
-    margin-top: 20px;
+    margin-top: 4vw;
     display: flex;
-    align-content: center;
     justify-content: center;
-}
-.YouTube-info {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: auto;
-    margin-bottom: 5%;
-    padding: 10px 20px 10px 20px;
     background-color: rgba(0, 0, 0, 0.3);
     border: 1px solid #007e8f33;
     border-radius: 5px;
 }
+.YouTube-info {
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: auto;
+    margin-bottom: 8vw;
+    padding: 10px 20px 10px 20px;
+    font-size: 1vw;
+}
 .YouTube-info h2 {
     margin-bottom: 5%;
+    font-size: 1.6vw;
 }
 .YouTube-info h3 {
     margin: 0;
-    color: #ffffff;
+    color: #9ee3ff;
+    font-size: 1.4vw;
 }
