@@ -1,0 +1,126 @@
+* {
+    cursor: url(../image/cursor_3.png), pointer;
+}
+::-webkit-scrollbar {
+    width: 15px;
+    background-color: black;
+}
+::-webkit-scrollbar-track {
+    background-color: black;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: -webkit-linear-gradient(90deg, rgb(0, 174, 179), rgb(109, 0, 0) 47%, rgb(255, 0, 0));
+    border-radius: 10px;
+    border: 2px solid black;
+}
+::-webkit-scrollbar-thumb:active {
+    background: -webkit-linear-gradient(90deg, rgb(0, 174, 179)10%, rgb(109, 0, 0) 50%, rgb(255, 0, 0)90%);
+    border: 1px solid black;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.home {
+    align-items: center;
+    left: 10vw;
+    top: 1.5vw;
+    position: absolute;
+}
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #222222;
+    background: url(../img/Fon.gif) center / cover no-repeat;
+}
+.head-nav {
+    padding: 10px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.mod-assemblies {
+    margin-left: auto;
+    display: flex;
+}
+.mod-full {
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: #ff7300;
+    -webkit-text-stroke: 2px #000000;
+    border-radius: 20px;
+    border: 5px solid #000000;
+    background-image: linear-gradient(45deg,#ff7300 10%, #000000 10% 20%, #ff7300 20% 30%, #000000 30% 40%, #ff7300 40% 50%, #000000 50% 60%, #ff7300 60% 70%, #000000 70% 80%, #ff7300 80% 90%, #000000 90%);
+    font-size: 45px;
+    font-weight: 700;
+}
+.mod-full:hover {
+    color: yellow;
+}
+.chanel {
+    text-decoration: none;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transition-duration: 0.5s;
+}
+.chanel:hover .logo{
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+.page {
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill,295px);
+    grid-auto-flow: row;
+    row-gap: 1;
+    gap: 10px;
+}
+.content {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5px;
+    background-color: #ff7300;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.content:hover {
+    background-color: #b85300;
+}
+.download {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    white-space: nowrap;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.download:hover {
+    color: #3cff00;
+}
+.image {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 275px;
+    height: 170px;
+    border-radius: 15px;
+}
+.download-library {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.download-library:hover {
+    color: #3cff00;
+}
